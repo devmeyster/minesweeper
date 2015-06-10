@@ -35,7 +35,7 @@ MineDetonator.prototype = {
       }
     });
     //Create the output by combining the max number of explosions with the list of mines 
-    result = ""+max;
+    result = "" + max;
     resultingMines.forEach(function(mine){
       result += "\n" + mine.x +" " + mine.y;
     });
