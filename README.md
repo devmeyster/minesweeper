@@ -1,4 +1,4 @@
-/*# Challenge: Explode the Mines
+# Challenge: Explode the Mines
 
 There are bunch of mines in this field, and you are tasked with
 exploding as many of them as you can.  The caveat is that you can
@@ -62,5 +62,5 @@ You can, and should, use the following code...
 
 def within_blast_radius(x1, y1, blast_radius, x2, y2)
   ((x1 - x2) ** 2  +  (y1 - y2) ** 2) <= (blast_radius ** 2)
-end */
+end
 
